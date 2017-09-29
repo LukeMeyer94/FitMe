@@ -1,0 +1,27 @@
+.overview-page {
+  background-color: #fffd;
+}
+.jumbotron{
+  background-color: #fff0 !important;
+}
+
+.DashboardCard{
+  width: 20rem;
+  height: 12rem;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #fffa;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.cardText {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cardValue{
+  font-size: 50px;
+  text-align: center;
+}

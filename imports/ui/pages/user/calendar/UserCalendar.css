@@ -1,0 +1,14 @@
+.UserCalendar {
+  background-color: #fffe;
+  padding: 10px;
+}
+
+#calendar {
+  background-color: #fff0;
+  color: #333;
+}
+
+.calendarEvent {
+  margin: 5px;
+  cursor: pointer;
+}

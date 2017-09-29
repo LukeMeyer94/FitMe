@@ -1,0 +1,49 @@
+.MyPlan{
+  .taskButtons{
+    color: #555;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float:right;
+  }
+  #planTable{
+    background-color: #fff;
+    color: #111;
+    text-align: center;
+  }
+
+  #planTable th{
+    text-align: center;
+  }
+  #planTable button{
+    // display: none;
+    border: none;
+    background-color: transparent;
+    text-align: center;
+  }
+}
+
+.weekDays-selector input{
+  display: none!important;
+}
+
+.weekDays-selector input[type=checkbox] + label {
+  display: inline-block;
+  border-radius: 60px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dedede;
+  height: 30px;
+  width: 40px;
+  margin-right: 10px;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+  color:#555;
+}
+
+.weekDays-selector input[type=checkbox]:checked + label {
+  background-color: #555;
+  color: #eee;
+}

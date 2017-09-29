@@ -1,0 +1,108 @@
+{
+  "days": [
+    {
+      "name": "sunday",
+      "title": "day A",
+      "tasks": [
+        {
+          "name": "Bench Press",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        },
+        {
+          "name": "Squat",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        },
+        {
+          "name": "Barbell Row",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        }
+      ]
+    },
+    {
+      "name": "monday",
+      "title": "rest day"
+    },
+    {
+      "name": "tuesday",
+      "title": "day B",
+      "tasks": [
+        {
+          "name": "Overhead Press",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        },
+        {
+          "name": "Squat",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        },
+        {
+          "name": "Deadlift",
+          "type": "lift",
+          "reps": "1",
+          "sets": "5",
+          "duration": "10"
+        }
+      ]
+    },
+    {
+      "name": "wednesday",
+      "title": "rest day"
+    },
+    {
+      "name": "thursday",
+      "title": "day C",
+      "tasks": [
+        {
+          "name": "Bench Press",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        },
+        {
+          "name": "Squat",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        },
+        {
+          "name": "Barbell Row",
+          "type": "lift",
+          "reps": "5",
+          "sets": "5",
+          "duration": "10"
+        }
+      ]
+    },
+    {
+      "name": "friday",
+      "title": "cardio day",
+      "tasks": [
+        {
+          "name": "Sprints",
+          "type": "cardio",
+          "duration": "15"
+        }
+      ]
+    },
+    {
+      "name": "saturday",
+      "title": "rest day"
+    }
+  ]
+}

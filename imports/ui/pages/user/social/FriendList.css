@@ -1,0 +1,55 @@
+.Friends {
+  background-color: #fffd;
+}
+
+.pending-friend-item {
+  border-bottom: 1px solid dimgrey;
+  padding-top: 10px;
+}
+
+.pending-friend-avatar {
+  height: 75px;
+  width: 75px;
+}
+
+.pending-friend-description {
+  padding-left: 15%;
+}
+
+.pending-friend-accept-button {
+  position: relative;
+  left: 62%;
+  bottom: 30px;
+}
+
+.pending-friend-reject-button {
+  position: relative;
+  left: 68%;
+  bottom: 30px;
+}
+
+.pending-friend-cancel-button {
+  position: relative;
+  left: 80%;
+  bottom: 30px;
+}
+
+.friend-item {
+  border-bottom: 1px solid dimgrey;
+  padding-top: 10px;
+}
+
+.friend-avatar {
+  height: 75px;
+  width: 75px;
+}
+
+.friend-description {
+  padding-left: 15%;
+}
+
+.remove-friend-button {
+  position: relative;
+  left: 80%;
+  bottom: 30px;
+}

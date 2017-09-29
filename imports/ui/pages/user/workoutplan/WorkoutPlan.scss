@@ -1,0 +1,9 @@
+.WorkoutPlan{
+  background-color: #fffe;
+
+  .nav-tabs>li>a:focus {
+  background-color: #fff;
+  color: #555;
+  outline: none;
+  }
+}

@@ -1,0 +1,140 @@
+.dashboard-page {
+
+	position:fixed;
+	top: 30px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+    // background: #ecf0f1;
+		background-color: rgba(10, 10, 10, .3);
+		background-repeat: repeat;
+    color: #666;
+
+    /*
+     * Base structure
+     */
+
+
+    /*
+     * Global add-ons
+     */
+
+    // .sub-header {
+    //   padding-bottom: 10px;
+    //   border-bottom: 1px solid #eee;
+    // }
+
+    /*
+     * Top navigation
+     * Hide default border to remove 1px line.
+     */
+
+    .navbar-fixed-top {
+      border: 0;
+    }
+
+    /*
+     * Sidebar
+     */
+
+    /* Hide for mobile, show later */
+    .sidebar {
+
+      .user-avatar {
+      	margin: 10px 0 10px 0;
+      }
+
+      .brand {
+      	padding-top: 15px;
+				// font-size: 3vmin;
+				font-size: calc(20px + .8vw);
+      }
+
+      display: inline;
+
+      color: #FFF;
+
+      h2 {
+      	font-weight: 300;
+      }
+    }
+
+		.user-logout{
+			color: #FFF;
+		}
+
+		.user-logout:hover{
+			color: #AAA;
+		}
+
+    @media (min-width: 0px) {
+      .sidebar {
+        position: fixed;
+        top: 30px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 0 20px 20px 20px;
+        overflow-x: hidden;
+        overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+        background-color:  rgba(35,35,35,.6);
+				box-shadow: 1px 1px 5px #333;
+      }
+    }
+
+    .nav-sidebar > li > a:hover, .nav > li > a:focus {
+    	background: #555;
+			cursor: pointer;
+    }
+
+    /* Sidebar navigation */
+    .nav-sidebar {
+      margin-right: -21px; /* 20px padding + 1px border */
+      margin-bottom: 20px;
+      margin-left: -20px;
+      margin-top: 20px;
+    }
+    .nav-sidebar > li > a {
+      color: #fff;
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .nav-sidebar > .active > a,
+    .nav-sidebar > .active > a:hover,
+    .nav-sidebar > .active > a:focus {
+      color: #fff;
+      background-color: rgb(60,60,60);
+    }
+
+    /*
+     * Main content
+     */
+
+    .main {
+      padding-top: 20px;
+			padding-left: 0px;
+			padding-right: 0px;
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      .jumbotron {
+        background: #FFF;
+      }
+    }
+    .main .page-header {
+      margin-top: 0;
+    }
+
+    .bg-fade {
+      font-size: 500px;
+      color: rgba(0,0,0,0.1);
+      position: absolute;
+      right: -100px;
+      top: 200px;
+    }
+
+}

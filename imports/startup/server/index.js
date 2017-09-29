@@ -1,0 +1,13 @@
+import './accounts/email-templates';
+import './browser-policy';
+import './fixtures';
+import './api';
+import './mail-url.js';
+import './mongo-publish.js';
+import './facebook-servconf.js';
+import '../../server_methods/unlinkAccountService.js';
+import '../../server_methods/getFbProfilePicture.js';
+import '../../server_methods/updateUserWorkout.js';
+import '../../server_methods/updateCompletedTask.js';
+import '../../server_methods/postToFb.js';
+import '../../server_methods/getFbFriends.js';

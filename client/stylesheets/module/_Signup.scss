@@ -1,0 +1,36 @@
+.Signup form + p {
+  margin-top: 20px;
+}
+
+.Signup{
+  // width: 100%;
+  color: #555;
+  background-color: #fefefe;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (min-width: 768px){
+  .Signup{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .Signup{
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+.Card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.row{
+  margin: 0 auto;
+  float: none;
+  padding: 20px;
+}

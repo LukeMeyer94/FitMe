@@ -1,0 +1,11 @@
+.UserInfo{
+  color: #d5d5d5;
+  background-color: #fefefe;
+  padding-bottom: 20px;
+
+  .nav-tabs>li>a:focus{
+    background-color: #fff;
+    color: #555;
+    outline: none;
+  }
+}

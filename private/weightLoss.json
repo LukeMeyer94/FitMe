@@ -1,0 +1,206 @@
+{
+  "days": [
+    {
+      "name": "sunday",
+      "title": "total body",
+      "tasks": [
+        {
+          "name": "Bench Press",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Overhead Press",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Squat",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Lat Pull-Down/Pull-Up",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Tricep Push-down",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Bicep Curl",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Upright Row",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        }
+      ]
+    },
+    {
+      "name": "monday",
+      "title": "cardio day",
+      "tasks": [
+        {
+          "name": "Jogging OR Biking",
+          "type": "cardio",
+          "duration": "30"
+        }
+      ]
+    },
+    {
+      "name": "tuesday",
+      "title": "total body",
+      "tasks": [
+        {
+          "name": "Bench Press",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Overhead Press",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Squat",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Lat Pull-Down/Pull-Up",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Tricep Push-down",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Bicep Curl",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Upright Row",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        }
+      ]
+    },
+    {
+      "name": "wednesday",
+      "title": "cardio day",
+      "tasks": [
+        {
+          "name": "Jogging OR Biking",
+          "type": "cardio",
+          "duration": "30"
+        }
+      ]
+    },
+    {
+      "name": "thursday",
+      "title": "total body",
+      "tasks": [
+        {
+          "name": "Bench Press",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Overhead Press",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Squat",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Lat Pull-Down/Pull-Up",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Tricep Push-down",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Bicep Curl",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        },
+        {
+          "name": "Upright Row",
+          "type": "lift",
+          "reps": "12",
+          "sets": "4",
+          "duration": "15"
+        }
+      ]
+    },
+    {
+      "name": "friday",
+      "title": "cardio day",
+      "tasks": [
+        {
+          "name": "Jogging OR Biking",
+          "type": "cardio",
+          "duration": "30"
+        }
+      ]
+    },
+    {
+      "name": "saturday",
+      "title": "rest day"
+    }
+  ]
+}

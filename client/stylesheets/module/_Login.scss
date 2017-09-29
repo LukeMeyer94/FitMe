@@ -1,0 +1,39 @@
+.Login label {
+  display: block;
+  @extend %clearfix;
+}
+
+.Login{
+
+  border-radius: 5px;
+  color: #d5d5d5;
+  background-color: #fefefe;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+}
+
+@media (min-width: 768px){
+  .Login{
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .Login{
+    width: 60%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.Login .page-header{
+  color: #333;
+  text-align: center;
+}

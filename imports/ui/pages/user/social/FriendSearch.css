@@ -1,0 +1,28 @@
+.FriendSearch {
+  background-color: #fffd;
+}
+
+#friend-search-list {
+  /*background-color: #fff*/
+}
+
+.friend-search-item {
+  border-bottom: 1px solid dimgrey;
+  /*border-top: black;*/
+  padding-top: 10px;
+}
+
+.friend-search-avatar {
+  height: 75px;
+  width: 75px;
+}
+
+.friend-search-description {
+  padding-left: 15%;
+}
+
+.friend-search-button {
+  position: relative;
+  left: 80%;
+  bottom: 30px;
+}

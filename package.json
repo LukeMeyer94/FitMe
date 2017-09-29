@@ -1,0 +1,118 @@
+{
+  "name": "application-name",
+  "version": "1.0.0",
+  "description": "Application description.",
+  "scripts": {
+    "start": "meteor --settings settings-development.json",
+    "test": "meteor test --driver-package practicalmeteor:mocha --port 5000",
+    "chimp-watch": "chimp --ddp=http://localhost:3000 --watch --mocha --path=tests",
+    "chimp-test": "chimp --ddp=http://localhost:3000 --mocha --path=tests",
+    "staging": "meteor deploy staging.meteor.com --settings settings-development.json",
+    "production": "meteor deploy production.meteor.com --settings settings-production.json",
+    "lint": "eslint client imports server tests --ext js,jsx --fix"
+  },
+  "devDependencies": {
+    "@meteorjs/eslint-config-meteor": "^1.0.3",
+    "babel-eslint": "^7.2.1",
+    "chimp": "^0.48.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-import-resolver-meteor": "^0.4.0",
+    "eslint-plugin-import": "^2.1.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-meteor": "^4.0.1",
+    "eslint-plugin-react": "^6.10.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb/base",
+      "plugin:meteor/guide",
+      "plugin:react/recommended"
+    ],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "plugins": [
+      "meteor",
+      "react"
+    ],
+    "env": {
+      "browser": true
+    },
+    "globals": {
+      "server": false,
+      "browser": false,
+      "expect": false,
+      "Session": true,
+      "$": true,
+      "Bert": true,
+      "Accounts": true,
+      "Assets": true,
+      "FiveByFive": true,
+      "PPL": true,
+      "WeightLoss": true
+    },
+    "rules": {
+      "react/no-find-dom-node": 0,
+      "no-restricted-syntax": 0,
+      "no-plusplus": 0,
+      "guard-for-in": 0,
+      "import/no-unresolved": 0,
+      "import/no-extraneous-dependencies": 0,
+      "import/extensions": 0,
+      "no-underscore-dangle": [
+        "error",
+        {
+          "allow": [
+            "_id",
+            "_ensureIndex",
+            "_verifyEmailToken",
+            "_resetPasswordToken",
+            "_name"
+          ]
+        }
+      ],
+      "class-methods-use-this": 0
+    }
+  },
+  "dependencies": {
+    "antd": "^2.9.1",
+    "antd-meteor": "0.0.3",
+    "babel-plugin-import": "^1.1.1",
+    "babel-runtime": "^6.18.0",
+    "bcrypt": "^1.0.2",
+    "bootstrap": "^3.3.7",
+    "fb": "^2.0.0",
+    "indexof": "0.0.1",
+    "jquery": "^3.2.1",
+    "jquery-validation": "^1.15.1",
+    "meteor-node-stubs": "^0.2.6",
+    "meter": "^0.1.9",
+    "moment": "^2.18.1",
+    "neal-react": "^0.2.5",
+    "node-base64-image": "^1.0.3",
+    "prop-types": "^15.5.8",
+    "react": "^15.4.2",
+    "react-addons-create-fragment": "^15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-linked-state-mixin": "^15.4.2",
+    "react-addons-perf": "^15.4.2",
+    "react-addons-pure-render-mixin": "^15.4.2",
+    "react-addons-test-utils": "^15.4.2",
+    "react-addons-transition-group": "^15.4.2",
+    "react-addons-update": "^15.4.2",
+    "react-bootstrap": "^0.31.0",
+    "react-bootstrap-table": "^3.2.1",
+    "react-day-picker": "^5.2.3",
+    "react-dom": "^15.4.2",
+    "react-geosuggest": "^2.1.0",
+    "react-helmet": "^5.0.2",
+    "react-komposer": "^1.13.1",
+    "react-router": "^3.0.0",
+    "react-router-bootstrap": "^0.23.1",
+    "react-select": "^1.0.0-rc.3",
+    "webdriverio": "^4.6.2"
+  }
+}

@@ -1,0 +1,17 @@
+.Index{
+  color: black;
+  background-color: #eee;
+  height: 100%;
+
+  .jumbotron{
+    color: white !important;
+    height: 100%;
+    padding-top: 275px !important;
+    padding-bottom: 275px !important;
+    background-position: center top;
+
+  }
+  .neal-hero{
+    background-image: url("/images/hero-bg-dark.png");
+  }
+}

@@ -1,0 +1,82 @@
+.TaskTimer{
+  background-color: #fffe;
+  padding: 10px;
+}
+
+.timerContainer{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  zoom:1;
+
+  .timerButtons{
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+
+  #taskTitle{
+    margin-bottom: 20px;
+  }
+
+  #timer{
+    display: inline-block;
+    width: auto;
+
+  }
+}
+
+/* Extra Small */
+@media(max-width:767px){
+  #timer {
+    zoom: 0.69;
+  }
+
+  .timerButtons {
+    zoom: 0.9;
+  }
+
+  #taskTitle{
+    font-size: 25px;
+  }
+}
+
+/* Small */
+@media(min-width:768px) and (max-width:991px){
+  #timer {
+    zoom: 1.1;
+  }
+  .timerButtons {
+    zoom: 1;
+  }
+  #taskTitle{
+    font-size: 35px;
+  }
+}
+
+/* Medium */
+@media(min-width:992px) and (max-width:1199px){
+  #timer {
+    zoom: 1.5;
+  }
+  .timerButtons {
+    zoom: 1.1;
+  }
+  #taskTitle{
+    font-size: 40px;
+  }
+}
+
+/* Large */
+@media(min-width:1200px){
+  #timer {
+    zoom: 1.5;
+  }
+
+  .timerButtons {
+    zoom: 1.1;
+  }
+
+  #taskTitle{
+    font-size: 45px;
+  }
+}
